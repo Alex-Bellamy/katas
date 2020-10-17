@@ -1,6 +1,6 @@
-function alphanumeric(string) {
+function alphanumeric(string){
   if (/^[a-z0-9-\'_\.,:\(\)&\[\]\/+=\?#@]+$/i.test(string)) {
-    return true;
+         return true;
+      }
+      return false;
   }
-  return false;
-}
